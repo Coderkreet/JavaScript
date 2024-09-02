@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+    .navbar-brand {
+        color: rgb(171, 221, 241);
+
+    }
+</style>
+
+<body>
+
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">NotesApp</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" id="searchTxt" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="cont my-4 mx-5">
+        <h1>Welcome to NotesApp</h1>
+        <div class="card">
+            <div class="card-header">
+                Notes
+            </div>
+            <div class="card-body">
+                
+                <!-- <h5 class="card-title" id="title">Add Title</h5> -->
+                <!-- <input type="text" id="addtitle"> -->
+                <h5 class="card-title" id="title">Add a notes</h5>
+                
+                <textarea class="form-control" id="addtxt" rows="3"></textarea>
+                <button disabled id = 'addbtn'  class="btn btn-primary">ADD</button>
+            </div>
+        </div>
+
+        <hr>
+        <h1>Your Notes</h1>
+        <hr>
+
+<div id="notes">
+    
+</div>
+        
+        </div>
+    </div>
+
+
+    <script src="/Project_1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+[
+    
+"rassmalai" 
+,
+
+"manat"
+
+,
+
+"chikan biryani"
+,
+
+"muton biriyani"
+,
+
+"chikan leg"
+
+,
+
+"chikan rost"
+,
+
+"anda curry"
+
+
+]

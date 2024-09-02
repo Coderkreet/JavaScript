@@ -1,0 +1,25 @@
+[
+    
+"banan" 
+,
+
+"kela"
+
+,
+
+" paineapple"
+,
+
+"apple"
+,
+
+"lolipop"
+
+,
+
+"mango"
+,
+
+"whatermalen"
+
+]
